@@ -2,14 +2,14 @@ name: ENV - Tutorial Backend Deploy
 
 on:
   repository_dispatch:
-    types: [thongchai-tutorial-backend-cd-dev]
+    types: [sek-tutorial-backend-cd-dev]
   workflow_dispatch:
 
 env:
-  REPOSITORY: "judascrow/thongchai-tutorial-backend"
-  APP_NAME: thongchai-tutorial-backend
-  AZURE_WEB_APP_NAME: app-thongchai-tutorial-backend-dev-001
-  CONTAINER_REPOSITORY: "acrthongchaitutorial001.azurecr.io"
+  REPOSITORY: "judascrow/sek-tutorial-backend"
+  APP_NAME: sek-tutorial-backend
+  AZURE_WEB_APP_NAME: app-sek-tutorial-backend-dev-001
+  CONTAINER_REPOSITORY: "acrsektutorial001.azurecr.io"
   IMAGE_TAG: "0.0.1-SNAPSHOT"
 
 jobs:
